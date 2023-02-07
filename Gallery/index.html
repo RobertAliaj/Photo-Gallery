@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="icon" type="image/gif" href="../img/segeltuch.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body onload="render_content()">
+
+    <nav>
+        <div class="overlay-nav"></div>
+        <div class="title">
+            <div class="home-logo">
+                <a href="index.html"><img src="../img/home-7-48.ico" title="Home"></a>
+            </div>
+            <div>
+                <h1>Basketball</h1>
+                <span>Basketball is a great way of exercise and a great way to have fun with friends and possibly make
+                    some new ones. <br>
+                    I love to watch and play the game, basketball is a very entertaining sport and can be played by
+                    anyone. <br>
+                    I am very grateful that I was introduced to and played basketball as a young boy, it changed my life forever. <br>
+                    I love this game! <br>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="gallery" class="gallery-style imgs">
+    </div>
+
+
+    <div id="show_pics" class="bg-1 d-none" onclick="close_bg_1()">
+    </div>
+
+    <div id="arrow-left" class="arrow-left d-none"></div>
+    <div id="arrow-right" class="arrow-right d-none"></div>
+
+
+    <a href="credits.html" class="credits" title="Credits..">Credits</a>
+
+</body>
+
+</html>
